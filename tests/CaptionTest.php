@@ -1,12 +1,11 @@
 <?php
 
-use Benlipp\SrtParser\Caption;
-use Benlipp\SrtParser\Time;
+use GustavTrenwith\SrtParser\Caption;
+use GustavTrenwith\SrtParser\Time;
 use PHPUnit\Framework\TestCase;
 
 class CaptionTest extends TestCase
 {
-
     /**
      * Check possible syntax errors
      */

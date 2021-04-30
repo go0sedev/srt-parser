@@ -1,17 +1,13 @@
 <?php
 
-namespace Benlipp\SrtParser;
-
+namespace GustavTrenwith\SrtParser;
 
 class Time
 {
-
     public static function get($time)
     {
         if (isset($time)) {
-            $parsed = self::parseTime($time);
-
-            return self::formatTime($parsed);
+            return self::formatTime(self::parseTime($time));
         }
 
         return null;

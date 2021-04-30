@@ -1,16 +1,11 @@
 <?php
 
-namespace Benlipp\SrtParser\Exceptions;
-
-
-use Throwable;
+namespace GustavTrenwith\SrtParser\Exceptions;
 
 class FileNotFoundException extends \Exception
 {
-
     public function __construct($file_location)
     {
-        $message = "Could not find file: " . $file_location;
-        parent::__construct($message);
+        parent::__construct("Could not find file: " . $file_location);
     }
 }

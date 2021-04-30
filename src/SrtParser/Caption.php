@@ -1,12 +1,9 @@
 <?php
 
-namespace Benlipp\SrtParser;
-
-use Benlipp\SrtParser\Time;
+namespace GustavTrenwith\SrtParser;
 
 class Caption
 {
-
     public $startTime;
     public $endTime;
     public $text;

@@ -1,7 +1,7 @@
 <?php
 
-use Benlipp\SrtParser\Exceptions\FileNotFoundException;
-use Benlipp\SrtParser\Parser;
+use GustavTrenwith\SrtParser\Exceptions\FileNotFoundException;
+use GustavTrenwith\SrtParser\Parser;
 use PHPUnit\Framework\TestCase;
 
 class ParserTest extends TestCase

@@ -1,13 +1,13 @@
 <?php
 
-namespace Benlipp\SrtParser;
+namespace GustavTrenwith\SrtParser;
 
-use Benlipp\SrtParser\Exceptions\FileNotFoundException;
+use GustavTrenwith\SrtParser\Exceptions\FileNotFoundException;
 
 class Parser
 {
-
     private $data;
+
     const SRT_REGEX_STRING = '/\d\r\n\r\n((?:.*\r\n)*)\r\n/';
 
     public function loadFile($file)
