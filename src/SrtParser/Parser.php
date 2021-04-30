@@ -44,6 +44,7 @@ class Parser
     private static function splitData($data)
     {
         //find digits followed by a single line break and timestamps
+        $data = preg_replace('/\n\n/m', '', $data, -1);
         $sections = preg_split('/\d+(?:\r\n|\r|\n)(?=(?:\d\d:\d\d:\d\d,\d\d\d)\s-->\s(?:\d\d:\d\d:\d\d,\d\d\d))/m', $data,-1,PREG_SPLIT_NO_EMPTY);
         $matches = [];
         foreach ($sections as $section) {
