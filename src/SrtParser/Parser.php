@@ -60,12 +60,11 @@ class Parser
     {
         $captions = [];
         foreach ($matches as $match) {
-            $times = self::timeMatch($match[0]);
-            $text = self::textMatch($match[1]);
-
+            $match = collect($match);
+            $times = self::timeMatch($match->get(0,''));
+            $text = self::textMatch($match->get(1,''));
             $captions[] = new Caption($times['start_time'], $times['end_time'], $text);
         }
-
         return $captions;
     }
 
