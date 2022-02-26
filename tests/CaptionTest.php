@@ -1,7 +1,7 @@
 <?php
 
-use GustavTrenwith\SrtParser\Caption;
-use GustavTrenwith\SrtParser\Time;
+use Go0seDev\SrtParser\Caption;
+use Go0seDev\SrtParser\Time;
 use PHPUnit\Framework\TestCase;
 
 class CaptionTest extends TestCase

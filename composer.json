@@ -1,12 +1,12 @@
 {
-    "name": "gustavtrenwith/srt-parser",
+    "name": "go0sedev/srt-parser",
     "description": "Easily Parse SRT Subtitle Files",
     "keywords": ["srt", "subtitles", "parser"],
     "license": "DBAD",
     "authors": [
         {
             "name": "Ben Lippincott",
-            "email": "ben@GustavTrenwith.com"
+            "email": "ben@Go0seDev.com"
         }
     ],
     "type": "project",
@@ -19,7 +19,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "GustavTrenwith\\SrtParser\\": "src/SrtParser/"
+            "Go0seDev\\SrtParser\\": "src/SrtParser/"
         }
     }
 }

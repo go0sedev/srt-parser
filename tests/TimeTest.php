@@ -1,6 +1,6 @@
 <?php
 
-use GustavTrenwith\SrtParser\Time;
+use Go0seDev\SrtParser\Time;
 use PHPUnit\Framework\TestCase;
 
 class TimeTest extends TestCase

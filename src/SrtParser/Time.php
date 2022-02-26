@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavTrenwith\SrtParser;
+namespace Go0seDev\SrtParser;
 
 class Time
 {

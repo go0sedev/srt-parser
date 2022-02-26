@@ -1,6 +1,6 @@
 SRT Parser
 =
-[![Build Status](https://travis-ci.org/GustavTrenwith/srt-parser.svg?branch=master)](https://travis-ci.org/GustavTrenwith/srt-parser)
+[![Build Status](https://travis-ci.org/Go0seDev/srt-parser.svg?branch=master)](https://travis-ci.org/Go0seDev/srt-parser)
 
 A PHP library to parse SRT files.  
 Built by Ben Lippincott for [LiveTech](http://www.liveteched.com/)
@@ -8,14 +8,14 @@ Built by Ben Lippincott for [LiveTech](http://www.liveteched.com/)
 Installation / Requirements
 -
 Run 
-`composer require "gustavtrenwith/srt-parser"`
+`composer require "go0sedev/srt-parser"`
 and let Composer do the work.
 
 PHP 7+ is **REQUIRED**! This isn't amateur hour.  
 
 Usage
 -
-Import the `Parser` class: `use GustavTrenwith\SrtParser\Parser;`
+Import the `Parser` class: `use Go0seDev\SrtParser\Parser;`
 
 Use it:
 ````

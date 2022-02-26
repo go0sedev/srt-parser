@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavTrenwith\SrtParser\Exceptions;
+namespace Go0seDev\SrtParser\Exceptions;
 
 class FileNotFoundException extends \Exception
 {

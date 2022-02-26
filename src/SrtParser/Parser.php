@@ -1,8 +1,8 @@
 <?php
 
-namespace GustavTrenwith\SrtParser;
+namespace Go0seDev\SrtParser;
 
-use GustavTrenwith\SrtParser\Exceptions\FileNotFoundException;
+use Go0seDev\SrtParser\Exceptions\FileNotFoundException;
 
 class Parser
 {
